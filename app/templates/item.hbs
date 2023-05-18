@@ -1,18 +1,20 @@
 <GeneralContainer>
-    <div class="product item-details-page">
-        <Product::Image/>
-        <Product::Details @color="{{this.color}}"/>
-    </div>
-    <h5 class="mt-5">Features</h5>
-    <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-    </ul>
+  <div class="product item-details-page">
+    <Product::Image />
+    <Product::Details
+      @color={{this.color}}
+      @onChangeColor={{this.onChangeColor}}
+    />
+  </div>
+  <h5 class="mt-5">Features</h5>
+  <ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+  </ul>
 </GeneralContainer>
-
